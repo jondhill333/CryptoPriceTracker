@@ -33,9 +33,8 @@ class CryptoContainer extends Component {
                 />  
                 
             )
-        }  ç
+        } 
     }
-
 
     render() {
 
@@ -49,19 +48,17 @@ class CryptoContainer extends Component {
                     textContent={"Loading..."}
                     textStyle={{color: "#253145"}}
                     animation="fade"
-                    
                     />
                 </View>
             )
         }
         return (
-            <ScrollView style={contentContainer}>
-                {this.renderCoinCards()}
-            </ScrollView>
+                <ScrollView style={contentContainer}>
+                    {this.renderCoinCards()}
+                </ScrollView>
         )
     }
 }
-
 
 const styles = StyleSheet.create({
     contentContainer: {
